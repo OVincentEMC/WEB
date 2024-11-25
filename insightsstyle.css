@@ -61,7 +61,20 @@ main h2 {
     color: #1e293b;
     margin-bottom: 1rem;
 }
+section p{
+	animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scaleX(0.4);
+		transform-origin: 0% 0%;
+	}
 
+	100% {
+		transform: scaleX(1);
+		transform-origin: 0% 0%;
+	}
+}
 footer {
     text-align: center;
     padding: 1rem;
